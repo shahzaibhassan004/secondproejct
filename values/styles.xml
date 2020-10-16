@@ -5,6 +5,23 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="drawerArrowStyle">@style/DrawerIcon</item>
+        <item name="android:listDivider">@color/transparent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.AppBarOerlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+    <style name="AppTheme.popUpOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+    <style name="TextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textStyle">bold</item>
     </style>
 
+    <style name="DrawerIcon" parent="Widget.AppCompat.DrawerArrowToggle">
+        
+        <item name="color">#AE000000</item>
+        
+    </style>
 </resources>
